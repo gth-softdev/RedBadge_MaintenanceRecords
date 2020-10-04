@@ -1,0 +1,16 @@
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\MaintenanceRecords.Models.dll.config
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\MaintenanceRecords.Models.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\MaintenanceRecords.Models.pdb
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\EntityFramework.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\EntityFramework.xml
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\obj\Debug\MaintenanceRecords.Models.csprojAssemblyReference.cache
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\obj\Debug\MaintenanceRecords.Models.csproj.CoreCompileInputs.cache
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\obj\Debug\MaintenanceRecords.Models.csproj.CopyComplete
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\obj\Debug\MaintenanceRecords.Models.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\obj\Debug\MaintenanceRecords.Models.pdb

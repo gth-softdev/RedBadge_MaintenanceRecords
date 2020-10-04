@@ -1,0 +1,16 @@
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\MaintenanceRecords.Services.dll.config
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\MaintenanceRecords.Services.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\MaintenanceRecords.Services.pdb
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\EntityFramework.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\EntityFramework.xml
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\obj\Debug\MaintenanceRecords.Services.csprojAssemblyReference.cache
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\obj\Debug\MaintenanceRecords.Services.csproj.CoreCompileInputs.cache
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\obj\Debug\MaintenanceRecords.Services.csproj.CopyComplete
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\obj\Debug\MaintenanceRecords.Services.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\obj\Debug\MaintenanceRecords.Services.pdb
