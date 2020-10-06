@@ -21,7 +21,6 @@ namespace RedBadge_MaintenanceRecords.Controllers
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new MaintRecordService(userId);
             var model = service.GetMaintRecords();
-            var jimbo = from p in model select p;
             return View(model);
         }
 
