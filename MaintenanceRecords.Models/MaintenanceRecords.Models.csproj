@@ -54,11 +54,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LocationListItem.cs" />
+    <Compile Include="MaintItemListItem.cs" />
+    <Compile Include="MaintRecordCreate.cs" />
+    <Compile Include="MaintRecordDetail.cs" />
+    <Compile Include="MaintRecordEdit.cs" />
+    <Compile Include="MaintRecordListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MaintenanceRecords.Data\MaintenanceRecords.Data.csproj">
+      <Project>{D732F724-63A1-41F3-906A-9016404A9B42}</Project>
+      <Name>MaintenanceRecords.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

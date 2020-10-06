@@ -14,3 +14,6 @@ C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models
 C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\obj\Debug\MaintenanceRecords.Models.csproj.CopyComplete
 C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\obj\Debug\MaintenanceRecords.Models.dll
 C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\obj\Debug\MaintenanceRecords.Models.pdb
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\MaintenanceRecords.Data.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\MaintenanceRecords.Data.pdb
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Models\bin\Debug\MaintenanceRecords.Data.dll.config

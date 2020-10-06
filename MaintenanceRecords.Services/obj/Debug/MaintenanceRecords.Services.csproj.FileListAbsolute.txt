@@ -14,3 +14,9 @@ C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Servic
 C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\obj\Debug\MaintenanceRecords.Services.csproj.CopyComplete
 C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\obj\Debug\MaintenanceRecords.Services.dll
 C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\obj\Debug\MaintenanceRecords.Services.pdb
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\MaintenanceRecords.Data.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\MaintenanceRecords.Models.dll
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\MaintenanceRecords.Data.pdb
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\MaintenanceRecords.Data.dll.config
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\MaintenanceRecords.Models.pdb
+C:\Users\Gary\source\repos\RedBadge_MaintenanceRecords\MaintenanceRecords.Services\bin\Debug\MaintenanceRecords.Models.dll.config

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaintenanceRecords.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -6,25 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MaintenanceRecords.Data
+namespace MaintenanceRecords.Models
 {
-    public class MaintRecord
+    public class MaintRecordListItem
     {
-        [Key]
         public int RecordId { get; set; }
 
         [ForeignKey(nameof(MaintItem))]
         public int ItemId { get; set; }
         public virtual MaintItem MaintItem { get; set; }
 
-        [Required]
         [Display(Name = "Item notes")]
         public string RecordText { get; set; }
 
-        
+        [Display(Name = "Date of note")]
         public DateTime RecordDate { get; set; }
-
- 
-
     }
 }
