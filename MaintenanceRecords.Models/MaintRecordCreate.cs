@@ -16,8 +16,8 @@ namespace MaintenanceRecords.Models
         public virtual MaintItem MaintItem { get; set; }
 
         [Display(Name = "Date")]
-        public DateTime RecordDate { get; set; }
-       
+        public DateTime RecordDate { get { return DateTime.Now; } }
+
         [Required]
         [Display(Name = "Item notes")]
         [MinLength(3, ErrorMessage = "Please enter at least 3 characters.")]

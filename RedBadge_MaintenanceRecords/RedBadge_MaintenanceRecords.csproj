@@ -239,7 +239,6 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\MaintRecord\Index.cshtml" />
     <Content Include="Views\MaintRecord\Create.cshtml" />
-    <Content Include="Views\MaintItem\Index.cshtml" />
     <Content Include="Views\Location\Index.cshtml" />
     <Content Include="Views\MaintRecord\Details.cshtml" />
     <Content Include="Views\MaintRecord\Edit.cshtml" />
@@ -248,6 +247,11 @@
     <Content Include="Views\Location\Details.cshtml" />
     <Content Include="Views\Location\Edit.cshtml" />
     <Content Include="Views\Location\Delete.cshtml" />
+    <Content Include="Views\MaintItem\Index.cshtml" />
+    <Content Include="Views\MaintItem\Create.cshtml" />
+    <Content Include="Views\MaintItem\Details.cshtml" />
+    <Content Include="Views\MaintItem\Edit.cshtml" />
+    <Content Include="Views\MaintItem\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

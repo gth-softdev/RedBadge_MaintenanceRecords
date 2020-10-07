@@ -21,6 +21,7 @@ namespace RedBadge_MaintenanceRecords.Controllers
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new MaintRecordService(userId);
             var model = service.GetMaintRecords();
+
             return View(model);
         }
 
@@ -28,6 +29,7 @@ namespace RedBadge_MaintenanceRecords.Controllers
         //GET
         public ActionResult Create()
         {
+            ViewBag.ItemId = new SelectList(_db.MaintItems, "ItemId", "ItemName");
             return View();
         }
 
@@ -64,6 +66,7 @@ namespace RedBadge_MaintenanceRecords.Controllers
 
         public ActionResult Edit(int id)
         {
+            ViewBag.ItemId = new SelectList(_db.MaintItems, "ItemId", "ItemName");
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new MaintRecordService(userId);
             var detail = service.GetMaintRecordById(id);

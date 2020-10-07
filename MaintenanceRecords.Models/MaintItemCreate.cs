@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaintenanceRecords.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -6,19 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MaintenanceRecords.Data
+namespace MaintenanceRecords.Models
 {
-    public class MaintItem
+    public class MaintItemCreate
     {
-        [Key]
-        public int ItemId { get; set; }
-
         [Required]
         [Display(Name = "Item Name")]
         public string ItemName { get; set; }
-        
+
         public int? Year { get; set; }
         public string Make { get; set; }
+
+        [Display(Name = "Model")]
         public string ItemModel { get; set; }
 
         [Display(Name = "Misc Info")]
@@ -28,8 +28,5 @@ namespace MaintenanceRecords.Data
         [ForeignKey(nameof(ItemLocation))]
         public int LocationId { get; set; }
         public virtual ItemLocation ItemLocation { get; set; }
-
-        //*[Foreign Key] OwnerId
-
     }
 }

@@ -26,7 +26,7 @@ namespace MaintenanceRecords.Services
                     //OwnerId = _userId,
                     ItemId = model.ItemId,
                     RecordText = model.RecordText,
-                    RecordDate = DateTime.Now
+                    //RecordDate = DateTime.Now
                 };
 
             using (var ctx = new ApplicationDbContext())
@@ -51,9 +51,10 @@ namespace MaintenanceRecords.Services
                                     RecordId = e.RecordId,
                                     ItemId = e.ItemId,
                                     RecordText = e.RecordText,
-                                    RecordDate = e.RecordDate
+                                    RecordDate = e.RecordDate,
+                                    MaintItem = e.MaintItem
                                 }
-                        );
+                        ) ;
 
                 return query.ToArray();
             }
@@ -73,7 +74,8 @@ namespace MaintenanceRecords.Services
                         RecordId = entity.RecordId,
                         ItemId = entity.ItemId,
                         RecordText = entity.RecordText,
-                        RecordDate = entity.RecordDate
+                        RecordDate = entity.RecordDate,
+                        MaintItem = entity.MaintItem
                     };
             }
         }
@@ -87,7 +89,7 @@ namespace MaintenanceRecords.Services
                         .MaintRecords
                         .Single(e => e.RecordId == model.RecordId);
                 entity.RecordText = model.RecordText;
-                entity.RecordDate = DateTime.Now;
+                //entity.RecordDate = DateTime.Now;
 
                 return ctx.SaveChanges() == 1;
             }

@@ -16,10 +16,13 @@ namespace MaintenanceRecords.Models
         [Display(Name = "Item Name")]
         public string ItemName { get; set; }
 
-        public int Year { get; set; }
+        public int? Year { get; set; }
         public string Make { get; set; }
-        public string Model { get; set; }
 
+        [Display(Name = "Model")]
+        public string ItemModel { get; set; }
+
+        [Display(Name = "Misc Info")]
         [MaxLength(100, ErrorMessage = "There are too many characters in this field.")]
         public string MiscInfo { get; set; }
 
