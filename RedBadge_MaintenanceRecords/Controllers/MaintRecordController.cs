@@ -21,13 +21,25 @@ namespace RedBadge_MaintenanceRecords.Controllers
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new MaintRecordService(userId);
             var model = service.GetMaintRecords();
+            var sortedList = model.OrderBy(item => item.MaintItem.ItemName).ToArray();
+
+
+            return View(sortedList);
+        }
+
+        public ActionResult show(int id)
+        {
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new MaintRecordService(userId);
+            //var svc = CreateMaintItemService();
+            var model = service.GetMaintRecordsByItem(id);
 
             return View(model);
         }
 
-        //Add method here VVVV
-        //GET
-        public ActionResult Create()
+            //Add method here VVVV
+            //GET
+            public ActionResult Create()
         {
             ViewBag.ItemId = new SelectList(_db.MaintItems, "ItemId", "ItemName");
             return View();

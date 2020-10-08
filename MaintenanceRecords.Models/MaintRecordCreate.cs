@@ -15,7 +15,16 @@ namespace MaintenanceRecords.Models
         public int ItemId { get; set; }
         public virtual MaintItem MaintItem { get; set; }
 
+        //private DateTime _returnDate = DateTime.MinValue;
         [Display(Name = "Date")]
+        //public DateTime RecordDate
+        //{
+        //    get
+        //    {
+        //        return (_returnDate == DateTime.MinValue) ? DateTime.Now : _returnDate;
+        //    }
+        //    set { _returnDate = value; }
+        //}
         public DateTime RecordDate { get { return DateTime.Now; } }
 
         [Required]

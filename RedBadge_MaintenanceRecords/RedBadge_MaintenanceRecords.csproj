@@ -252,6 +252,7 @@
     <Content Include="Views\MaintItem\Details.cshtml" />
     <Content Include="Views\MaintItem\Edit.cshtml" />
     <Content Include="Views\MaintItem\Delete.cshtml" />
+    <Content Include="Views\MaintRecord\show.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

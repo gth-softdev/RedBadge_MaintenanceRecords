@@ -26,7 +26,7 @@ namespace MaintenanceRecords.Services
                     //OwnerId = _userId,
                     ItemId = model.ItemId,
                     RecordText = model.RecordText,
-                    //RecordDate = DateTime.Now
+                    RecordDate = model.RecordDate
                 };
 
             using (var ctx = new ApplicationDbContext())
@@ -54,7 +54,31 @@ namespace MaintenanceRecords.Services
                                     RecordDate = e.RecordDate,
                                     MaintItem = e.MaintItem
                                 }
-                        ) ;
+                        );
+
+                return query.ToArray();
+            }
+
+        }
+        public IEnumerable<MaintRecordListItem> GetMaintRecordsByItem(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var query =
+                    ctx
+                        .MaintRecords
+                        .Where(e => e.MaintItem.ItemId == id)
+                        .Select(
+                            e =>
+                                new MaintRecordListItem
+                                {
+                                    RecordId = e.RecordId,
+                                    ItemId = e.ItemId,
+                                    RecordText = e.RecordText,
+                                    RecordDate = e.RecordDate,
+                                    MaintItem = e.MaintItem
+                                }
+                        );
 
                 return query.ToArray();
             }
@@ -68,6 +92,7 @@ namespace MaintenanceRecords.Services
                     ctx
                         .MaintRecords
                         .Single(e => e.RecordId == id);
+
                 return
                     new MaintRecordDetail
                     {

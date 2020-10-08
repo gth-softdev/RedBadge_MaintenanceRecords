@@ -21,14 +21,16 @@ namespace MaintenanceRecords.Data
         [Display(Name = "Item notes")]
         public string RecordText { get; set; }
 
-        public DateTime RecordDate
-        {
-            get { return DateTime.Now; }
-            set { }
-        }
-        
+        public DateTime RecordDate { get; set; }
 
- 
+        //public DateTime RecordDate
+        //{
+        //    get { return DateTime.Now; }
+        //    set { }
+        //}
+
+
+
 
     }
 }
