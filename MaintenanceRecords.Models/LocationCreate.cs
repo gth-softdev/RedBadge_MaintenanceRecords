@@ -11,7 +11,7 @@ namespace MaintenanceRecords.Models
     {
 
         [Required]
-        [Display(Name = "Item Location")]
+        [Display(Name = "Site Name")]
         public string SiteName { get; set; }
 
         [Display(Name = "Street Address")]

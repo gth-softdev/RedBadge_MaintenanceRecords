@@ -28,7 +28,7 @@ namespace MaintenanceRecords.Models
         public DateTime RecordDate { get { return DateTime.Now; } }
 
         [Required]
-        [Display(Name = "Item notes")]
+        [Display(Name = "Item Notes")]
         [MinLength(3, ErrorMessage = "Please enter at least 3 characters.")]
         [MaxLength(100, ErrorMessage = "There are too many characters in this field.")]
         public string RecordText { get; set; }

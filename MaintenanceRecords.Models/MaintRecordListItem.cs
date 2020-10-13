@@ -17,10 +17,10 @@ namespace MaintenanceRecords.Models
         public int ItemId { get; set; }
         public virtual MaintItem MaintItem { get; set; }
 
-        [Display(Name = "Item notes")]
+        [Display(Name = "Item Notes")]
         public string RecordText { get; set; }
 
-        [Display(Name = "Date of note")]
+        [Display(Name = "Date Of Note")]
         public DateTime RecordDate { get; set; }
     }
 }

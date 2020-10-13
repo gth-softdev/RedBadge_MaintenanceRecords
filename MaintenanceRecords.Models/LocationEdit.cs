@@ -11,7 +11,7 @@ namespace MaintenanceRecords.Models
     {
         public int LocationId { get; set; }
 
-        [Display(Name = "Item Location")]
+        [Display(Name = "Site Name")]
         public string SiteName { get; set; }
 
         [Display(Name = "Street Address")]

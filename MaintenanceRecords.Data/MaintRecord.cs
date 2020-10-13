@@ -18,7 +18,7 @@ namespace MaintenanceRecords.Data
         public virtual MaintItem MaintItem { get; set; }
 
         [Required]
-        [Display(Name = "Item notes")]
+        [Display(Name = "Item Notes")]
         public string RecordText { get; set; }
 
         public DateTime RecordDate { get; set; }
