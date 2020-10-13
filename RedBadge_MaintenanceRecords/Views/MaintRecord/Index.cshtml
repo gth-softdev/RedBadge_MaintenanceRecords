@@ -21,6 +21,7 @@
 
 }
     <table class="table">
+       
     <tr>
         @*<th>
                 @Html.DisplayNameFor(model => model.RecordId)
@@ -61,9 +62,19 @@
                 @Html.DisplayFor(modelItem => item.RecordDate)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.RecordId }) |
-                @Html.ActionLink("Details", "Details", new { id = item.RecordId }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.RecordId })
+                <a href="@Url.Action("Edit", "MaintRecord", new { id = item.RecordId })" title="Edit" , rel="nofollow">
+                    <img src="@Url.Content("~/Content/Images/edit-16.png")" /></a> |
+                @*@Html.ActionLink("Edit", "Edit", new { id = item.RecordId }) |*@
+                <a href="@Url.Action("Details", "MaintRecord", new { id = item.RecordId })" title="Details" , rel="nofollow">
+                    <img src="@Url.Content("~/Content/Images/details-16.png")" /></a> |
+                @*@Html.ActionLink("Details", "Details", new { id = item.RecordId }) |*@
+                <a href="@Url.Action("Delete", "MaintRecord", new { id = item.RecordId })" title="Remove" , rel="nofollow">
+                    <img src="@Url.Content("~/Content/Images/delete-16.png")" /></a> |
+                @*@Html.ActionLink("Delete", "Delete", new { id = item.RecordId }) |*@
+                <a href="@Url.Action("Show", "MaintRecord", new { id = item.MaintItem.ItemId })" title="View All" , rel="nofollow">
+                    <img src="@Url.Content("~/Content/Images/view-all-16.png")" />
+
+                    @*@Html.ActionLink($"Show all " + item.MaintItem.ItemName + " records", "../MaintRecord/show", new { id = item.MaintItem.ItemId })*@
             </td>
         </tr>
     }

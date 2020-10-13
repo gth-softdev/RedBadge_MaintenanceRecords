@@ -33,8 +33,14 @@ namespace RedBadge_MaintenanceRecords.Controllers
             var service = new MaintRecordService(userId);
             //var svc = CreateMaintItemService();
             var model = service.GetMaintRecordsByItem(id);
+            var sortedList = model.OrderByDescending(item => item.RecordDate).ToArray();
+            
+            if (model.Count() > 0)
+            {
+                ViewBag.ItemName = model.First().MaintItem.ItemName;
 
-            return View(model);
+            }
+            return View(sortedList);
         }
 
             //Add method here VVVV

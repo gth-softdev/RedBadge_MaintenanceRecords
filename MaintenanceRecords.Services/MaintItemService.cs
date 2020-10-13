@@ -23,6 +23,8 @@ namespace MaintenanceRecords.Services
 
             entity.ItemName = model.ItemName;
             entity.Year = model.Year;
+            entity.Make = model.Make;
+            entity.ItemModel = model.ItemModel;
             entity.MiscInfo = model.MiscInfo;
             entity.LocationId = model.LocationId;
 
